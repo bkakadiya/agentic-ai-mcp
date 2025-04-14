@@ -3,8 +3,8 @@ import random
 from datetime import datetime, timedelta
 
 DB_NAME = "mydatabase"
-DB_USER = "myuser123"  # Replace with your PostgreSQL username
-DB_PASSWORD = "mypassword123"  # Replace with your PostgreSQL password
+DB_USER = "***"  # Replace with your PostgreSQL username
+DB_PASSWORD = "****"  # Replace with your PostgreSQL password
 DB_HOST = "localhost"
 DB_PORT = "5432"
 

@@ -50,6 +50,12 @@ Sample application showing Agentic AI using MCP Server connecting to REST API, P
     ```bash
     pip list
     ```
+## Populate Financial Txn Data 
+1. **Run the Script to Populate Data**  
+    Execute the following command to populate sample financial transaction data:  
+    ```bash
+    python util/populate_data.py
+    ```
 
 ## Configure MCP Client - Claude for Windows 
 1. **Locate the Sample Configuration File**  
