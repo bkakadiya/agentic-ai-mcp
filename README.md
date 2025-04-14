@@ -51,7 +51,7 @@ Sample application showing Agentic AI using MCP Server connecting to REST API, P
     pip list
     ```
 
-## Configure MCPM Client - Claude for Windows 
+## Configure MCP Client - Claude for Windows 
 1. **Locate the Sample Configuration File**  
     Use the provided `config/sample_claude_desktop_config.json` file as a template.
 
