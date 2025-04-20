@@ -50,6 +50,13 @@ Sample application showing Agentic AI using MCP Server connecting to REST API, P
     ```bash
     pip list
     ```
+
+4. **Run Test Cases**  
+    Ensure all test cases are passed using pytest:
+    ```bash
+    pytest
+    ```
+
 ## Populate Financial Txn Data 
 1. **Run the Script to Populate Data**  
     Execute the following command to populate sample financial transaction data:  
