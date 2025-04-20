@@ -1,116 +1,116 @@
 {
-    "mcpServers": {
-		"stock_data": {
-            "command": "uv",
-            "args": [
-                "--directory",
-                "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
-                "run",
-                "stock_data_mcp.py"
-            ],
-			"env": {
-				"ALPHA_VANTAGE_KEY": "*****************"
-			}
-        },
-		"corporate_actions": {
-            "command": "uv",
-            "args": [
-                "--directory",
-                "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
-                "run",
-                "corporate_actions_mcp.py"
-            ],
-			"env": {
-				"ALPHA_VANTAGE_KEY": "*****************"
-			}
-        },
-		"earnings": {
-            "command": "uv",
-            "args": [
-                "--directory",
-                "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
-                "run",
-                "earnings_mcp.py"
-            ],
-			"env": {
-				"ALPHA_VANTAGE_KEY": "*****************"
-			}
-        },
-		"exchange_rates": {
-            "command": "uv",
-            "args": [
-                "--directory",
-                "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
-                "run",
-                "exchange_rates_mcp.py"
-            ],
-			"env": {
-				"ALPHA_VANTAGE_KEY": "*****************"
-			}
-        },
-		"fundamentals": {
-            "command": "uv",
-            "args": [
-                "--directory",
-                "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
-                "run",
-                "fundamentals_mcp.py"
-            ],
-			"env": {
-				"ALPHA_VANTAGE_KEY": "*****************"
-			}
-        },
-		"news_sentiment": {
-            "command": "uv",
-            "args": [
-                "--directory",
-                "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
-                "run",
-                "news_sentiment_mcp.py"
-            ],
-			"env": {
-				"ALPHA_VANTAGE_KEY": "*****************"
-			}
-        },
-		"top_movers": {
-            "command": "uv",
-            "args": [
-                "--directory",
-                "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
-                "run",
-                "top_movers_mcp.py"
-            ],
-			"env": {
-				"ALPHA_VANTAGE_KEY": "*****************"
-			}
-        },
-		"db_financial_transactions": {
-            "command": "uv",
-            "args": [
-                "--directory",
-                "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
-                "run",
-                "db_financial_txn_mcp.py"
-            ],
-			"env": {
-				"DB_NAME": "mydatabase",
-				"DB_USER": "****",
-				"DB_PASSWORD": "******",
-				"DB_HOST": "localhost",
-				"DB_PORT": "5432"
-			}
-        },
-		"document_reader_mcp": {
-            "command": "uv",
-            "args": [
-                "--directory",
-                "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
-                "run",
-                "document_reader_mcp.py"
-            ],
-			"env": {
-				"DOCUMENT_DIRECTORY": "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance\\docs"
-			}
-        }
+  "mcpServers": {
+    "stock_data": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
+        "run",
+        "stock_data_mcp.py"
+      ],
+      "env": {
+        "ALPHA_VANTAGE_KEY": "*****************"
+      }
+    },
+    "corporate_actions": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
+        "run",
+        "corporate_actions_mcp.py"
+      ],
+      "env": {
+        "ALPHA_VANTAGE_KEY": "*****************"
+      }
+    },
+    "earnings": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
+        "run",
+        "earnings_mcp.py"
+      ],
+      "env": {
+        "ALPHA_VANTAGE_KEY": "*****************"
+      }
+    },
+    "exchange_rates": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
+        "run",
+        "exchange_rates_mcp.py"
+      ],
+      "env": {
+        "ALPHA_VANTAGE_KEY": "*****************"
+      }
+    },
+    "fundamentals": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
+        "run",
+        "fundamentals_mcp.py"
+      ],
+      "env": {
+        "ALPHA_VANTAGE_KEY": "*****************"
+      }
+    },
+    "news_sentiment": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
+        "run",
+        "news_sentiment_mcp.py"
+      ],
+      "env": {
+        "ALPHA_VANTAGE_KEY": "*****************"
+      }
+    },
+    "top_movers": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
+        "run",
+        "top_movers_mcp.py"
+      ],
+      "env": {
+        "ALPHA_VANTAGE_KEY": "*****************"
+      }
+    },
+    "db_financial_transactions": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
+        "run",
+        "db_financial_txn_mcp.py"
+      ],
+      "env": {
+        "DB_NAME": "mydatabase",
+        "DB_USER": "****",
+        "DB_PASSWORD": "******",
+        "DB_HOST": "localhost",
+        "DB_PORT": "5432"
+      }
+    },
+    "document_reader_mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance",
+        "run",
+        "document_reader_mcp.py"
+      ],
+      "env": {
+        "DOCUMENT_DIRECTORY": "C:\\dev\\agent-ai\\mcp-claude\\mcp_finance\\docs"
+      }
     }
+  }
 }
